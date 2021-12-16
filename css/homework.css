@@ -32,8 +32,35 @@
     float: left;
 }
 
+.left-right > h4 {
+    margin: 0px 0px 5px 10px;
+}
+
+.left-right > span {
+    margin: 0px 0px 0px 10px;
+}
+
 .right-img {
-    padding : 10px;
     width: 100%;
-    height: 200px;
+    height: 100%;
+}
+
+.navbar {
+    text-align: center;
+    padding: 0px;
+}
+
+.navbar > li {
+    width: 150px;
+    display: inline-block;
+    background-color: #eee;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(67, 156, 67);
+    font-weight: bold;
 }

@@ -45,3 +45,43 @@
           background-color: grey; 
           /* clear: both;  */
 }
+
+.main-background {
+       width: 100%;
+       height: 500px;
+       background-image: url('../img/shoes.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       filter: brightness(70%);
+       padding: 1px;
+       position: relative;
+}
+
+.main-title {
+       color: white;
+       font-size: 40px;
+       margin-top: 100px;
+       margin-left: 800px
+}
+
+.main-content {
+       color: lightsalmon;
+       font-size: 30px;
+       margin-left: 550px;
+       padding: 10px;
+}
+
+.main-button {
+       margin: 10px;
+       padding: 15px;
+       background-color: rgb(82, 196, 158);
+       border: none;
+       border-radius: 5px;
+       font-size: 20px;
+       position: absolute;
+       left: 0;
+       right: 0;
+       margin: auto;
+       width: 150px;
+}
