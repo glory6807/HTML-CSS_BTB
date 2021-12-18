@@ -1,3 +1,11 @@
+body {
+       margin: 0px;
+}
+
+div {
+       box-sizing: border-box;   
+}
+
 .custom-img { display: block; 
               margin-left: auto; 
               margin-right: auto;
@@ -48,7 +56,7 @@
 
 .main-background {
        width: 100%;
-       height: 500px;
+       height: 450px;
        background-image: url('../img/shoes.jpg');
        background-size: cover;
        background-repeat: no-repeat;
@@ -61,14 +69,14 @@
 .main-title {
        color: white;
        font-size: 40px;
+       text-align: center;
        margin-top: 100px;
-       margin-left: 800px
 }
 
 .main-content {
        color: lightsalmon;
        font-size: 30px;
-       margin-left: 550px;
+       text-align: center;
        padding: 10px;
 }
 
@@ -84,4 +92,63 @@
        right: 0;
        margin: auto;
        width: 150px;
+}
+
+.explain-box {
+       width : 80%;
+       max-width: 600px;
+       background-color: #eee;
+       margin: auto;
+       padding: 20px;
+       text-align: center;
+       position: relative;
+       top: -30px;
+}
+
+.register-form {
+       width : 60%;
+       max-width: 500px;
+       height: 500px;
+       background-color: #eee;
+       margin: auto;
+       padding: 30px;
+}
+
+input {
+       width: 85%;
+       padding: 8px;
+       margin-right: 45px;
+       border: 1px solid lightgray;
+       border-radius: 5px;
+}
+
+.firstname-input, 
+.lastname-input {
+       float: left;
+}
+
+textarea {
+       width: 88%;
+       height: 150px;
+       border: 1px solid lightgray;
+       border-radius: 5px;
+       resize: none;
+       margin-bottom: 10px;
+}
+
+input[type=checkbox] {
+       width: 10px;
+       margin: 5px;
+}
+
+.register-button {
+       float: right;
+       width: 120px;
+       text-align: center;
+       color: white;
+       background-color: rgb(238, 167, 59);
+       border: none;
+       border-radius: 5px;
+       padding: 8px;
+       margin-right: 55px;
 }
