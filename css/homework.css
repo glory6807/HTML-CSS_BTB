@@ -64,3 +64,123 @@
     color: rgb(67, 156, 67);
     font-weight: bold;
 }
+
+.table-background {
+    width: 40%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    background-color: rgb(185, 214, 224);
+}
+
+.table-background > p {
+    color: rgb(33, 33, 141);
+    font-size: 25px;
+}
+
+.shopping-table {
+    width: 90%;
+    height: 250px;
+    font-weight: bold;
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+thead tr th {
+    border-bottom: 1px solid rgb(185, 214, 224);
+    border-collapse: separate; 
+    border-spacing: 5px 5px;
+} 
+
+tbody tr td {
+    border-bottom: 1px solid rgb(185, 214, 224);
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+
+tbody tr:last-child td {
+    height: 50px;
+    font-size: 18px;
+    border-bottom: none;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+
+th, td {
+    text-align: right;
+}
+
+th {
+    color: gray;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+td {
+    color: rgb(185, 214, 224);
+}
+
+thead th:first-child {
+    width : 50%;
+    text-align: center;
+}
+
+.shopping-table th:first-child {
+    padding-left: 20px;
+}
+
+.shopping-table th:last-child,
+.shopping-table td:last-child {
+    padding-right: 30px;
+}
+
+.shopping-table td:last-child {
+    color: rgb(33, 33, 141);
+}
+
+.table-bottom {
+    width: 90%;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: orange
+}
+
+/* .custom-link:visited {
+    color: black;
+} */
+
+.table-button {
+    background-color: rgb(33, 33, 141);
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table-button:hover {
+    background-color: chocolate;
+}
+
+.table-button:focus {
+    background-color: grey;
+}
+
+.table-button:active {
+    background-color: brown;
+}
