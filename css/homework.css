@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'custom font';
+    src: url(../font/NanumSquareR.ttf);
+}
+
+body {
+    margin: 0px;
+    font-family: 'custom font';
+}
+
 .container {
     width: 800px;
     height: 200px;
